@@ -2,8 +2,6 @@
 
 If you have any problems with or questions about this image, please contact us %%MAILING-LIST%% through a [GitHub issue](%%GITHUB-REPO%%/issues).
 
-You can also reach many of the official image maintainers via the `#docker-library` IRC channel on [Freenode](https://freenode.net).
-
 ## Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
