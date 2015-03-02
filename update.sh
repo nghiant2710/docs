@@ -21,42 +21,8 @@ replace_field() {
 }
 
 declare -A otherRepos=(
-	[busybox]='https://github.com/jpetazzo/docker-busybox'
-	[centos]='https://github.com/CentOS/sig-cloud-instance-images'
-	[cirros]='https://github.com/ewindisch/docker-cirros'
-	[clojure]='https://github.com/Quantisan/docker-clojure'
-	[crate]='https://github.com/crate/docker-crate'
-	[crux]='https://github.com/therealprologic/docker-crux'
-	[debian]='https://github.com/tianon/docker-brew-debian'
-	[docker-dev]='https://github.com/docker/docker'
-	[fedora]='https://github.com/lsm5/docker-brew-fedora'
-	[haskell]='https://github.com/darinmorrison/docker-haskell'
-	[hipache]='https://github.com/dotcloud/hipache'
-	[hylang]='https://github.com/hylang/hy'
-	[iojs]='https://github.com/iojs/docker-iojs'
-	[irssi]='https://github.com/jfrazelle/irssi'
-	[jenkins]='https://github.com/cloudbees/jenkins-ci.org-docker'
-	[jetty]='https://github.com/md5/docker-jetty'
-	[jruby]='https://github.com/cpuguy83/docker-jruby'
-	[mageia]='https://github.com/juanluisbaptiste/docker-brew-mageia'
-	[maven]='https://github.com/carlossg/docker-maven'
-	[mono]='https://github.com/mono/docker'
-	[neurodebian]='https://github.com/neurodebian/dockerfiles'
-	[nginx]='https://github.com/nginxinc/docker-nginx'
-	[node]='https://github.com/joyent/docker-node'
-	[odoo]='https://github.com/odoo/docker'
-	[opensuse]='https://github.com/openSUSE/docker-containers-build'
-	[oraclelinux]='https://github.com/oracle/docker-images'
-	[perl]='https://github.com/Perl/docker-perl'
-	[r-base]='https://github.com/rocker-org/rocker'
-	[registry]='https://github.com/docker/docker-registry'
-	[rethinkdb]='https://github.com/stuartpb/rethinkdb-dockerfiles'
-	[swarm]='https://github.com/docker/swarm-library-image'
-	[thrift]='https://github.com/ahawkins/docker-thrift'
-	[ubuntu-debootstrap]='https://github.com/tianon/docker-brew-ubuntu-debootstrap'
-	[ubuntu-upstart]='https://github.com/tianon/dockerfiles'
-	[ubuntu]='https://github.com/tianon/docker-brew-ubuntu-core'
-	[websphere-liberty]='https://github.com/WASdev/ci.docker'
+	[rpi-node]='https://github.com/resin-io-library/docker-node'
+	[rpi-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
 )
 
 dockerLatest="$(curl -sSL 'https://get.docker.com/latest')"
@@ -69,7 +35,7 @@ for repo in "${repos[@]}"; do
 	if [ -e "$repo/content.md" ]; then
 		gitRepo="${otherRepos[$repo]}"
 		if [ -z "$gitRepo" ]; then
-			gitRepo="https://github.com/docker-library/$repo"
+			gitRepo="https://github.com/resin-io-library/$repo"
 		fi
 		
 		mailingList="$(cat "$repo/mailing-list.md" 2>/dev/null || true)"
@@ -90,7 +56,7 @@ for repo in "${repos[@]}"; do
 		
 		logo=
 		if [ -e "$repo/logo.png" ]; then
-			logo="![logo](https://raw.githubusercontent.com/docker-library/docs/master/$repo/logo.png)"
+			logo="![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/$repo/logo.png)"
 		fi
 		
 		compose=
