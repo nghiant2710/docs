@@ -151,7 +151,7 @@ while (my $repo = shift) { # '/_/hylang', '/u/tianon/perl', etc
 		my $file = File::Temp->new(SUFFIX => '.txt');
 		my $filename = $file->filename;
 		spurt encode('UTF-8', $hubShort . "\n"), $filename;
-		system('vimdiff', $filename, $shortFile) == 0 or die "vimdiff on $filename and $shortFile failed";
+		#system('vimdiff', $filename, $shortFile) == 0 or die "vimdiff on $filename and $shortFile failed";
 		$hubShort = trim(decode('UTF-8', slurp($filename)));
 	}
 	
@@ -159,7 +159,7 @@ while (my $repo = shift) { # '/_/hylang', '/u/tianon/perl', etc
 		my $file = File::Temp->new(SUFFIX => '.md');
 		my $filename = $file->filename;
 		spurt encode('UTF-8', $hubLong . "\n"), $filename;
-		system('vimdiff', $filename, $longFile) == 0 or die "vimdiff on $filename and $longFile failed";
+		#system('vimdiff', $filename, $longFile) == 0 or die "vimdiff on $filename and $longFile failed";
 		$hubLong = trim(decode('UTF-8', slurp($filename)));
 	}
 	
