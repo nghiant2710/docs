@@ -152,7 +152,7 @@ while (my $repo = shift) { # '/_/hylang', '/u/tianon/perl', etc
 		my $filename = $file->filename;
 		spurt encode('UTF-8', $hubShort . "\n"), $filename;
 		#system('vimdiff', $filename, $shortFile) == 0 or die "vimdiff on $filename and $shortFile failed";
-		$hubShort = trim(decode('UTF-8', slurp($filename)));
+		$hubShort = trim(decode('UTF-8', slurp($shortFile)));
 	}
 	
 	if ($hubLong ne $long) {
@@ -160,7 +160,7 @@ while (my $repo = shift) { # '/_/hylang', '/u/tianon/perl', etc
 		my $filename = $file->filename;
 		spurt encode('UTF-8', $hubLong . "\n"), $filename;
 		#system('vimdiff', $filename, $longFile) == 0 or die "vimdiff on $filename and $longFile failed";
-		$hubLong = trim(decode('UTF-8', slurp($filename)));
+		$hubLong = trim(decode('UTF-8', slurp($longFile)));
 	}
 	
 	say 'no change to ' . $repoName . '; skipping' and next if $settingsBits->{description} eq $hubShort and $settingsBits->{full_description} eq $hubLong;
