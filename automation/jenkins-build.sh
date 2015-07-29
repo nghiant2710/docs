@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -o errexit
+
 # Jenkins build steps
 docker build -t docs-updater .
 
