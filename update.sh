@@ -21,12 +21,6 @@ replace_field() {
 }
 
 declare -A otherRepos=(
-	[rpi-node]='https://github.com/resin-io-library/docker-node'
-	[rpi-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
-	[armv7hf-node]='https://github.com/resin-io-library/docker-node'
-	[armv7hf-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
-	[i386-node]='https://github.com/resin-io-library/docker-node'
-	[i386-buildpack-deps]='https://github.com/resin-io-library/buildpack-deps'
 	[i386-systemd]='https://github.com/resin-io-library/base-images'
 	[armv7hf-systemd]='https://github.com/resin-io-library/base-images'
 	[raspberrypi-systemd]='https://github.com/resin-io-library/base-images'
