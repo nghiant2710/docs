@@ -7,7 +7,7 @@ docker build -t docs-updater .
 
 for REPO in $REPOS
 do
-	ARGV="u/resin/$REPO"
+	ARGV="resin/$REPO"
 	docker run docs-updater -u $USERNAME -p $PASSWORD $ARGV
     
 done
