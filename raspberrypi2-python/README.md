@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*python/raspberrypi2/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/python/raspberrypi2/jessie/Dockerfile)
--	[`wheezy` (*python/raspberrypi2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/python/raspberrypi2/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*python/raspberrypi2/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/raspberrypi2/jessie/Dockerfile)
+-	[`wheezy` (*python/raspberrypi2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/raspberrypi2/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/raspberrypi2-python`)](https://github.com/resin-io-library/official-images/blob/master/library/raspberrypi2-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -31,7 +31,7 @@ View [license information](https://docs.python.org/2/license.html) for the softw
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.7.1.
+This image is officially supported on Docker version 1.8.3.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

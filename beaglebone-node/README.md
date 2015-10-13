@@ -1,21 +1,29 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`0.10.38`, `0.10` (*node/beaglebone/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/3902cc720face5df280658d12bd96d5282d80269/node/beaglebone/0.10/Dockerfile)
--	[`0.10.38-onbuild`, `0.10-onbuild` (*node/beaglebone/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.10/onbuild/Dockerfile)
--	[`0.10.38-slim`, `0.10-slim` (*node/beaglebone/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.10/slim/Dockerfile)
--	[`0.10.38-wheezy`, `0.10-wheezy` (*node/beaglebone/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.10/wheezy/Dockerfile)
--	[`0.11.16`, `0.11` (*node/beaglebone/0.11/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/3902cc720face5df280658d12bd96d5282d80269/node/beaglebone/0.11/Dockerfile)
--	[`0.11.16-onbuild`, `0.11-onbuild` (*node/beaglebone/0.11/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.11/onbuild/Dockerfile)
--	[`0.11.16-slim`, `0.11-slim` (*node/beaglebone/0.11/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.11/slim/Dockerfile)
--	[`0.11.16-wheezy`, `0.11-wheezy` (*node/beaglebone/0.11/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.11/wheezy/Dockerfile)
--	[`0.12.4`, `0.12`, `0`, `latest` (*node/beaglebone/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/3902cc720face5df280658d12bd96d5282d80269/node/beaglebone/0.12/Dockerfile)
--	[`0.12.4-onbuild`, `0.12-onbuild`, `0-onbuild`, `onbuild` (*node/beaglebone/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.12/onbuild/Dockerfile)
--	[`0.12.4-slim`, `0.12-slim`, `0-slim`, `slim` (*node/beaglebone/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.12/slim/Dockerfile)
--	[`0.12.4-wheezy`, `0.12-wheezy`, `0-wheezy`, `wheezy` (*node/beaglebone/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.12/wheezy/Dockerfile)
--	[`0.9.12`, `0.9` (*node/beaglebone/0.9/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/3902cc720face5df280658d12bd96d5282d80269/node/beaglebone/0.9/Dockerfile)
--	[`0.9.12-onbuild`, `0.9-onbuild` (*node/beaglebone/0.9/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.9/onbuild/Dockerfile)
--	[`0.9.12-slim`, `0.9-slim` (*node/beaglebone/0.9/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.9/slim/Dockerfile)
--	[`0.9.12-wheezy`, `0.9-wheezy` (*node/beaglebone/0.9/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/92f4aec4fbd7ee5617aab10d597abc21a1009ea2/node/beaglebone/0.9/wheezy/Dockerfile)
+-	[`0.10.40`, `0.10` (*node/beaglebone/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.10/Dockerfile)
+-	[`0.10.40-onbuild`, `0.10-onbuild` (*node/beaglebone/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/beaglebone/0.10/onbuild/Dockerfile)
+-	[`0.10.40-slim`, `0.10-slim` (*node/beaglebone/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.10/slim/Dockerfile)
+-	[`0.10.40-wheezy`, `0.10-wheezy` (*node/beaglebone/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.10/wheezy/Dockerfile)
+-	[`0.11.16`, `0.11` (*node/beaglebone/0.11/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.11/Dockerfile)
+-	[`0.11.16-onbuild`, `0.11-onbuild` (*node/beaglebone/0.11/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/beaglebone/0.11/onbuild/Dockerfile)
+-	[`0.11.16-slim`, `0.11-slim` (*node/beaglebone/0.11/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.11/slim/Dockerfile)
+-	[`0.11.16-wheezy`, `0.11-wheezy` (*node/beaglebone/0.11/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.11/wheezy/Dockerfile)
+-	[`0.12.7`, `0.12`, `0`, `latest` (*node/beaglebone/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.12/Dockerfile)
+-	[`0.12.7-onbuild`, `0.12-onbuild`, `0-onbuild`, `onbuild` (*node/beaglebone/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/beaglebone/0.12/onbuild/Dockerfile)
+-	[`0.12.7-slim`, `0.12-slim`, `0-slim`, `slim` (*node/beaglebone/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.12/slim/Dockerfile)
+-	[`0.12.7-wheezy`, `0.12-wheezy`, `0-wheezy`, `wheezy` (*node/beaglebone/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.12/wheezy/Dockerfile)
+-	[`0.9.12`, `0.9` (*node/beaglebone/0.9/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.9/Dockerfile)
+-	[`0.9.12-onbuild`, `0.9-onbuild` (*node/beaglebone/0.9/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/beaglebone/0.9/onbuild/Dockerfile)
+-	[`0.9.12-slim`, `0.9-slim` (*node/beaglebone/0.9/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.9/slim/Dockerfile)
+-	[`0.9.12-wheezy`, `0.9-wheezy` (*node/beaglebone/0.9/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/0.9/wheezy/Dockerfile)
+-	[`4.0.0`, `4.0` (*node/beaglebone/4.0/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/4.0/Dockerfile)
+-	[`4.0.0-onbuild`, `4.0-onbuild` (*node/beaglebone/4.0/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c4f86f276a6da51e6c063b00ba52df0ad86f47c3/node/beaglebone/4.0/onbuild/Dockerfile)
+-	[`4.0.0-slim`, `4.0-slim` (*node/beaglebone/4.0/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/4.0/slim/Dockerfile)
+-	[`4.0.0-wheezy`, `4.0-wheezy` (*node/beaglebone/4.0/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/4.0/wheezy/Dockerfile)
+-	[`0.10.22` (*node/beaglebone/default/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/default/Dockerfile)
+-	[`0.10.22-onbuild` (*node/beaglebone/default/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/2fa97540911026369eaf9bd1574a8e7b59e99091/node/beaglebone/default/onbuild/Dockerfile)
+-	[`0.10.22-slim` (*node/beaglebone/default/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/default/slim/Dockerfile)
+-	[`0.10.22-wheezy` (*node/beaglebone/default/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4df1311c1ca1df7be056a759030c7eb571d2be54/node/beaglebone/default/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the [relevant manifest file (`resin/beaglebone-node`)](https://github.com/resin-io-library/official-images/blob/master/library/beaglebone-node) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
@@ -64,7 +72,7 @@ View [license information](https://github.com/joyent/node/blob/master/LICENSE) f
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.7.1.
+This image is officially supported on Docker version 1.8.3.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
