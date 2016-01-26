@@ -1,31 +1,27 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`0.10.40`, `0.10` (*node/ts4900/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.10/Dockerfile)
--	[`0.10.40-onbuild`, `0.10-onbuild` (*node/ts4900/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.10/onbuild/Dockerfile)
--	[`0.10.40-slim`, `0.10-slim` (*node/ts4900/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.10/slim/Dockerfile)
--	[`0.10.40-wheezy`, `0.10-wheezy` (*node/ts4900/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.10/wheezy/Dockerfile)
--	[`0.11.16`, `0.11` (*node/ts4900/0.11/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.11/Dockerfile)
--	[`0.11.16-onbuild`, `0.11-onbuild` (*node/ts4900/0.11/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.11/onbuild/Dockerfile)
--	[`0.11.16-slim`, `0.11-slim` (*node/ts4900/0.11/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.11/slim/Dockerfile)
--	[`0.11.16-wheezy`, `0.11-wheezy` (*node/ts4900/0.11/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.11/wheezy/Dockerfile)
--	[`0.12.7`, `0.12`, `0`, `latest` (*node/ts4900/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.12/Dockerfile)
--	[`0.12.7-onbuild`, `0.12-onbuild`, `0-onbuild`, `onbuild` (*node/ts4900/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.12/onbuild/Dockerfile)
--	[`0.12.7-slim`, `0.12-slim`, `0-slim`, `slim` (*node/ts4900/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.12/slim/Dockerfile)
--	[`0.12.7-wheezy`, `0.12-wheezy`, `0-wheezy`, `wheezy` (*node/ts4900/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.12/wheezy/Dockerfile)
--	[`0.9.12`, `0.9` (*node/ts4900/0.9/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.9/Dockerfile)
--	[`0.9.12-onbuild`, `0.9-onbuild` (*node/ts4900/0.9/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.9/onbuild/Dockerfile)
--	[`0.9.12-slim`, `0.9-slim` (*node/ts4900/0.9/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.9/slim/Dockerfile)
--	[`0.9.12-wheezy`, `0.9-wheezy` (*node/ts4900/0.9/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/0.9/wheezy/Dockerfile)
--	[`4.0.0`, `4.0` (*node/ts4900/4.0/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/4.0/Dockerfile)
--	[`4.0.0-onbuild`, `4.0-onbuild` (*node/ts4900/4.0/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/4.0/onbuild/Dockerfile)
--	[`4.0.0-slim`, `4.0-slim` (*node/ts4900/4.0/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/4.0/slim/Dockerfile)
--	[`4.0.0-wheezy`, `4.0-wheezy` (*node/ts4900/4.0/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/4.0/wheezy/Dockerfile)
--	[`0.10.22` (*node/ts4900/default/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/default/Dockerfile)
--	[`0.10.22-onbuild` (*node/ts4900/default/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/default/onbuild/Dockerfile)
--	[`0.10.22-slim` (*node/ts4900/default/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/default/slim/Dockerfile)
--	[`0.10.22-wheezy` (*node/ts4900/default/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/node/ts4900/default/wheezy/Dockerfile)
+-	[`0.10.41`, `0.10` (*node/ts7700/0.10/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.10/Dockerfile)
+-	[`0.10.41-onbuild`, `0.10-onbuild` (*node/ts7700/0.10/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.10/onbuild/Dockerfile)
+-	[`0.10.41-slim`, `0.10-slim` (*node/ts7700/0.10/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.10/slim/Dockerfile)
+-	[`0.10.41-wheezy`, `0.10-wheezy` (*node/ts7700/0.10/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.10/wheezy/Dockerfile)
+-	[`0.12.9`, `0.12` (*node/ts7700/0.12/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.12/Dockerfile)
+-	[`0.12.9-onbuild`, `0.12-onbuild` (*node/ts7700/0.12/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.12/onbuild/Dockerfile)
+-	[`0.12.9-slim`, `0.12-slim` (*node/ts7700/0.12/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.12/slim/Dockerfile)
+-	[`0.12.9-wheezy`, `0.12-wheezy` (*node/ts7700/0.12/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/0.12/wheezy/Dockerfile)
+-	[`4.2.4`, `4.2` (*node/ts7700/4.2/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/4.2/Dockerfile)
+-	[`4.2.4-onbuild`, `4.2-onbuild` (*node/ts7700/4.2/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/4.2/onbuild/Dockerfile)
+-	[`4.2.4-slim`, `4.2-slim` (*node/ts7700/4.2/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/4.2/slim/Dockerfile)
+-	[`4.2.4-wheezy`, `4.2-wheezy` (*node/ts7700/4.2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/4.2/wheezy/Dockerfile)
+-	[`5.3.0`, `5.3`, `0`, `latest` (*node/ts7700/5.3/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/5.3/Dockerfile)
+-	[`5.3.0-onbuild`, `5.3-onbuild`, `0-onbuild`, `onbuild` (*node/ts7700/5.3/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/5.3/onbuild/Dockerfile)
+-	[`5.3.0-slim`, `5.3-slim`, `0-slim`, `slim` (*node/ts7700/5.3/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/5.3/slim/Dockerfile)
+-	[`5.3.0-wheezy`, `5.3-wheezy`, `0-wheezy`, `wheezy` (*node/ts7700/5.3/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/5.3/wheezy/Dockerfile)
+-	[`0.10.22` (*node/ts7700/default/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/default/Dockerfile)
+-	[`0.10.22-onbuild` (*node/ts7700/default/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/default/onbuild/Dockerfile)
+-	[`0.10.22-slim` (*node/ts7700/default/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/default/slim/Dockerfile)
+-	[`0.10.22-wheezy` (*node/ts7700/default/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/c64414dfc7d0259b27511d62b20adb353e62adce/node/ts7700/default/wheezy/Dockerfile)
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/ts4900-node`)](https://github.com/resin-io-library/official-images/blob/master/library/ts4900-node) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+For more information about this image and its history, please see the [relevant manifest file (`resin/ts7700-node`)](https://github.com/resin-io-library/official-images/blob/master/library/ts7700-node) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
 # What is Node.js?
 
@@ -37,7 +33,7 @@ Node.js internally uses the Google V8 JavaScript engine to execute code; a large
 
 > [wikipedia.org/wiki/Node.js](https://en.wikipedia.org/wiki/Node.js)
 
-![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/ts4900-node/logo.png)
+![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/ts7700-node/logo.png)
 
 # How to use this image
 
@@ -45,7 +41,7 @@ Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below th
 
 ## Create a `Dockerfile` in your Node.js app project
 
-	FROM resin/ts4900-node:onbuild
+	FROM resin/ts7700-node:onbuild
 	# Enable systemd
 	ENV INITSYSTEM on
 	# replace this with your application's default port
@@ -72,7 +68,7 @@ View [license information](https://github.com/joyent/node/blob/master/LICENSE) f
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

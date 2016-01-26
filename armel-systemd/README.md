@@ -1,10 +1,9 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*systemd/armv7hf/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/530095359baa58850b65c19665f0f63ecd4ca989/systemd/armv7hf/jessie/Dockerfile)
--	[`sid` (*systemd/armv7hf/sid/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/530095359baa58850b65c19665f0f63ecd4ca989/systemd/armv7hf/sid/Dockerfile)
--	[`wheezy` (*systemd/armv7hf/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/006a367b75f2b8b6f8df2146a116df1ee624514c/systemd/armv7hf/wheezy/Dockerfile)
+-	[`jessie`, `latest` (*systemd/armel/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/0e190e5b93ccac6bf3d419e4337c8e0a71d4258d/systemd/armel/jessie/Dockerfile)
+-	[`wheezy` (*systemd/armel/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/0e190e5b93ccac6bf3d419e4337c8e0a71d4258d/systemd/armel/wheezy/Dockerfile)
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/armv7hf-systemd`)](https://github.com/resin-io-library/official-images/blob/master/library/armv7hf-systemd) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+For more information about this image and its history, please see the [relevant manifest file (`resin/armel-systemd`)](https://github.com/resin-io-library/official-images/blob/master/library/armel-systemd) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
 # What is systemd?
 
@@ -19,7 +18,7 @@ Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below th
 
 ## Create a `Dockerfile` in your app project
 
-	FROM resin/armv7hf-systemd:latest
+	FROM resin/armel-systemd:latest
 	# Enable systemd
 	ENV INITSYSTEM on
 
@@ -36,7 +35,7 @@ You can then build and run the Docker image:
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

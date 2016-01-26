@@ -1,13 +1,31 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie`, `latest` (*python/ts4900/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/ts4900/jessie/Dockerfile)
--	[`wheezy` (*python/ts4900/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/11b45b65c22c2965ee75e8a6a7b6ab8a1dab027b/python/ts4900/wheezy/Dockerfile)
+-	[`2.7.11`, `2.7`, `latest` (*python/ts7700/2.7/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/2.7/Dockerfile)
+-	[`2.7.11-onbuild`, `2.7-onbuild`, `onbuild` (*python/ts7700/2.7/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/2.7/onbuild/Dockerfile)
+-	[`2.7.11-slim`, `2.7-slim`, `slim` (*python/ts7700/2.7/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/2.7/slim/Dockerfile)
+-	[`2.7.11-wheezy`, `2.7-wheezy`, `wheezy` (*python/ts7700/2.7/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/2.7/wheezy/Dockerfile)
+-	[`3.2.6`, `3.2` (*python/ts7700/3.2/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.2/Dockerfile)
+-	[`3.2.6-onbuild`, `3.2-onbuild` (*python/ts7700/3.2/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.2/onbuild/Dockerfile)
+-	[`3.2.6-slim`, `3.2-slim` (*python/ts7700/3.2/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.2/slim/Dockerfile)
+-	[`3.2.6-wheezy`, `3.2-wheezy` (*python/ts7700/3.2/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.2/wheezy/Dockerfile)
+-	[`3.3.6`, `3.3` (*python/ts7700/3.3/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.3/Dockerfile)
+-	[`3.3.6-onbuild`, `3.3-onbuild` (*python/ts7700/3.3/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.3/onbuild/Dockerfile)
+-	[`3.3.6-slim`, `3.3-slim` (*python/ts7700/3.3/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.3/slim/Dockerfile)
+-	[`3.3.6-wheezy`, `3.3-wheezy` (*python/ts7700/3.3/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.3/wheezy/Dockerfile)
+-	[`3.4.4`, `3.4` (*python/ts7700/3.4/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.4/Dockerfile)
+-	[`3.4.4-onbuild`, `3.4-onbuild` (*python/ts7700/3.4/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.4/onbuild/Dockerfile)
+-	[`3.4.4-slim`, `3.4-slim` (*python/ts7700/3.4/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.4/slim/Dockerfile)
+-	[`3.4.4-wheezy`, `3.4-wheezy` (*python/ts7700/3.4/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.4/wheezy/Dockerfile)
+-	[`3.5.1`, `3.5` (*python/ts7700/3.5/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.5/Dockerfile)
+-	[`3.5.1-onbuild`, `3.5-onbuild` (*python/ts7700/3.5/onbuild/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.5/onbuild/Dockerfile)
+-	[`3.5.1-slim`, `3.5-slim` (*python/ts7700/3.5/slim/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.5/slim/Dockerfile)
+-	[`3.5.1-wheezy`, `3.5-wheezy` (*python/ts7700/3.5/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/281e9bcb4edce23dfddd8d35ba25fccc97582d68/python/ts7700/3.5/wheezy/Dockerfile)
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/ts4900-python`)](https://github.com/resin-io-library/official-images/blob/master/library/ts4900-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+For more information about this image and its history, please see the [relevant manifest file (`resin/ts7700-python`)](https://github.com/resin-io-library/official-images/blob/master/library/ts7700-python) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
-# What is ts4900-python?
+# What is ts7700-python?
 
-The Python buildpack image for Python apps for Technologic TS-4900.
+The Python buildpack image for Python apps for Technologic TS-7700.
 
 # How to use this image
 
@@ -15,7 +33,7 @@ Systemd can be enabled by adding `ENV INITSYSTEM on` to your Dockerfile below th
 
 ## Create a `Dockerfile` in your python app project
 
-	FROM resin/ts4900-python:latest
+	FROM resin/ts7700-python:latest
 	# Enable systemd
 	ENV INITSYSTEM on
 	# Your code goes here
@@ -31,7 +49,7 @@ View [license information](https://docs.python.org/2/license.html) for the softw
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 

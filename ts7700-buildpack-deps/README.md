@@ -1,19 +1,19 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`jessie-curl`, `curl` (*buildpack-deps/ts4900/jessie/curl/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/jessie/curl/Dockerfile)
--	[`jessie-scm`, `scm` (*buildpack-deps/ts4900/jessie/scm/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/jessie/scm/Dockerfile)
--	[`jessie`, `latest` (*buildpack-deps/ts4900/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/jessie/Dockerfile)
--	[`wheezy-curl` (*buildpack-deps/ts4900/wheezy/curl/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/wheezy/curl/Dockerfile)
--	[`wheezy-scm` (*buildpack-deps/ts4900/wheezy/scm/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/wheezy/scm/Dockerfile)
--	[`wheezy` (*buildpack-deps/ts4900/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/4daa06ceeb6967baafc6b8de1ed2c1aa28918e6b/buildpack-deps/ts4900/wheezy/Dockerfile)
+-	[`jessie-curl`, `curl` (*buildpack-deps/ts7700/jessie/curl/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/jessie/curl/Dockerfile)
+-	[`jessie-scm`, `scm` (*buildpack-deps/ts7700/jessie/scm/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/jessie/scm/Dockerfile)
+-	[`jessie`, `latest` (*buildpack-deps/ts7700/jessie/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/jessie/Dockerfile)
+-	[`wheezy-curl` (*buildpack-deps/ts7700/wheezy/curl/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/wheezy/curl/Dockerfile)
+-	[`wheezy-scm` (*buildpack-deps/ts7700/wheezy/scm/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/wheezy/scm/Dockerfile)
+-	[`wheezy` (*buildpack-deps/ts7700/wheezy/Dockerfile*)](https://github.com/resin-io-library/base-images/blob/7bd0e66672aaaafa105805bf92b23271cce32f80/buildpack-deps/ts7700/wheezy/Dockerfile)
 
-For more information about this image and its history, please see the [relevant manifest file (`resin/ts4900-buildpack-deps`)](https://github.com/resin-io-library/official-images/blob/master/library/ts4900-buildpack-deps) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
+For more information about this image and its history, please see the [relevant manifest file (`resin/ts7700-buildpack-deps`)](https://github.com/resin-io-library/official-images/blob/master/library/ts7700-buildpack-deps) in the [`resin-io-library/official-images` GitHub repo](https://github.com/resin-io-library/official-images).
 
 # What is `buildpack-deps`?
 
 In spirit, `buildpack-deps` is similar to [Heroku's stack images](https://github.com/heroku/stack-images/blob/master/bin/cedar.sh). It includes a large number of "development header" packages needed by various things like Ruby Gems, PyPI modules, etc. For example, `buildpack-deps` would let you do a `bundle install` in an arbitrary application directory without knowing beforehand that `ssl.h` is required to build a dependent module.
 
-![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/ts4900-buildpack-deps/logo.png)
+![logo](https://raw.githubusercontent.com/resin-io-library/docs/master/ts7700-buildpack-deps/logo.png)
 
 # How to use this image
 
@@ -39,7 +39,7 @@ View [license information](https://www.debian.org/social_contract#guidelines) fo
 
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.8.3.
+This image is officially supported on Docker version 1.9.1.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
