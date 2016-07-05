@@ -100,6 +100,11 @@ declare -A otherRepos=(
 	[raspberrypi3-node]='https://github.com/resin-io-library/base-images'
 	[raspberrypi3-python]='https://github.com/resin-io-library/base-images'
 	[raspberrypi3-golang]='https://github.com/resin-io-library/base-images'
+	[beaglebone-green-wifi-debian]='https://github.com/resin-io-library/base-images'
+	[beaglebone-green-wifi-buildpack-deps]='https://github.com/resin-io-library/base-images'
+	[beaglebone-green-wifi-python]='https://github.com/resin-io-library/base-images'
+	[beaglebone-green-wifi-node]='https://github.com/resin-io-library/base-images'
+	[beaglebone-green-wifi-golang]='https://github.com/resin-io-library/base-images'
 )
 
 dockerLatest="$(curl -sSL 'https://get.docker.com/latest')"
