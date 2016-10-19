@@ -1,1 +1,1 @@
-The bare bones Alpine Linux OS image for Beaglebone.
+The bare bones Alpine Linux OS image for Beaglebone Black.

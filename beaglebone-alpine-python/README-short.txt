@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Beaglebone.
+The Python buildpack image for Python apps.

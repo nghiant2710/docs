@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Beaglebone Green.
+The Python buildpack image for Python apps for Beaglebone Green Wireless.

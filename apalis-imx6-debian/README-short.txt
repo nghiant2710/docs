@@ -1,1 +1,1 @@
-The bare bones OS image for Apalis iMX6q.
+The bare bones OS image for Apslis iMX6q.

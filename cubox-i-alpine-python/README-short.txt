@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Hummingboard.
+The Python buildpack image for Python apps.

@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for beaglebone.
+The Python buildpack image for Python apps for Beaglebone Black.

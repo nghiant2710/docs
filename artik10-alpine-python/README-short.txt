@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Samsung Artik 10.
+The Python buildpack image for Python apps.

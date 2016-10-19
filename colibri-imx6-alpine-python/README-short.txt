@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Colibri iMX6dl.
+The Python buildpack image for Python apps.

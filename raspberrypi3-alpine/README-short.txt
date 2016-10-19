@@ -1,1 +1,1 @@
-The bare bones Alpine Linux OS image for Raspberry PI 3.
+The bare bones Alpine Linux OS image for Raspberry Pi 3.

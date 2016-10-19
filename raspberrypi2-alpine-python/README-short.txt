@@ -1,1 +1,1 @@
-The Python buildpack image for Python apps for Raspberry PI 2.
+The Python buildpack image for Python apps.
