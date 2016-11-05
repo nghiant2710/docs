@@ -47,7 +47,7 @@ bash update.sh armv7hf-systemd raspberrypi-systemd i386-systemd amd64-systemd ar
 	beaglebone-green-wifi-alpine beaglebone-green-wifi-alpine-buildpack-deps beaglebone-green-wifi-alpine-node beaglebone-green-wifi-alpine-python beaglebone-green-wifi-alpine-golang \
 	beaglebone-fedora beaglebone-fedora-buildpack-deps beaglebone-fedora-node beaglebone-fedora-python beaglebone-fedora-golang \
 	raspberrypi2-fedora raspberrypi2-fedora-buildpack-deps raspberrypi2-fedora-node raspberrypi2-fedora-python raspberrypi2-fedora-golang \
-	edison-fedora edison-fedora-buildpack-deps edison-fedora-node edison-fedora-python edison-fedora-golang \
+	nuc-fedora nuc-fedora-buildpack-deps nuc-fedora-node nuc-fedora-python nuc-fedora-golang \
 	cubox-i-fedora cubox-i-fedora-buildpack-deps cubox-i-fedora-node cubox-i-fedora-python cubox-i-fedora-golang \
 	nitrogen6x-fedora nitrogen6x-fedora-buildpack-deps nitrogen6x-fedora-node nitrogen6x-fedora-python nitrogen6x-fedora-golang \
 	odroid-c1-fedora odroid-c1-fedora-buildpack-deps odroid-c1-fedora-node odroid-c1-fedora-python odroid-c1-fedora-golang \
@@ -61,7 +61,18 @@ bash update.sh armv7hf-systemd raspberrypi-systemd i386-systemd amd64-systemd ar
 	artik10-fedora artik10-fedora-buildpack-deps artik10-fedora-node artik10-fedora-python artik10-fedora-golang \
 	artik5-fedora artik5-fedora-buildpack-deps artik5-fedora-node artik5-fedora-python artik5-fedora-golang \
 	colibri-imx6-fedora colibri-imx6-fedora-buildpack-deps colibri-imx6-fedora-node colibri-imx6-fedora-python colibri-imx6-fedora-golang \
-	beaglebone-green-wifi-fedora beaglebone-green-wifi-fedora-buildpack-deps beaglebone-green-wifi-fedora-node beaglebone-green-wifi-fedora-python beaglebone-green-wifi-fedora-golang
+	beaglebone-green-wifi-fedora beaglebone-green-wifi-fedora-buildpack-deps beaglebone-green-wifi-fedora-node beaglebone-green-wifi-fedora-python beaglebone-green-wifi-fedora-golang \
+	qemux86-64-debian qemux86-64-buildpack-deps qemux86-64-node qemux86-64-python qemux86-64-golang \
+	qemux86-64-alpine qemux86-64-alpine-buildpack-deps qemux86-64-alpine-node qemux86-64-alpine-python qemux86-64-alpine-golang \
+	qemux86-64-fedora qemux86-64-fedora-buildpack-deps qemux86-64-fedora-node qemux86-64-fedora-python qemux86-64-fedora-golang \
+	qemux86-debian qemux86-buildpack-deps qemux86-node qemux86-python qemux86-golang \
+	qemux86-alpine qemux86-alpine-buildpack-deps qemux86-alpine-node qemux86-alpine-python qemux86-alpine-golang \
+	qemux86-fedora qemux86-fedora-buildpack-deps qemux86-fedora-node qemux86-fedora-python qemux86-fedora-golang \
+	artik710-debian artik710-buildpack-deps artik710-node artik710-python artik710-golang \
+	artik710-alpine artik710-alpine-buildpack-deps artik710-alpine-node artik710-alpine-python artik710-alpine-golang \
+	artik710-fedora artik710-fedora-buildpack-deps artik710-fedora-node artik710-fedora-python artik710-fedora-golang \
+	intel-quark-debian intel-quark-buildpack-deps intel-quark-node intel-quark-python intel-quark-golang \
+	intel-quark-alpine intel-quark-alpine-buildpack-deps intel-quark-alpine-node intel-quark-alpine-python intel-quark-alpine-golang
 
 # Jenkins build steps
 docker build -t docs-updater .
