@@ -44,7 +44,24 @@ bash update.sh armv7hf-systemd raspberrypi-systemd i386-systemd amd64-systemd ar
 	artik10-alpine artik10-alpine-buildpack-deps artik10-alpine-node artik10-alpine-python artik10-alpine-golang \
 	artik5-alpine artik5-alpine-buildpack-deps artik5-alpine-node artik5-alpine-python artik5-alpine-golang \
 	colibri-imx6-alpine colibri-imx6-alpine-buildpack-deps colibri-imx6-alpine-node colibri-imx6-alpine-python colibri-imx6-alpine-golang \
-	beaglebone-green-wifi-alpine beaglebone-green-wifi-alpine-buildpack-deps beaglebone-green-wifi-alpine-node beaglebone-green-wifi-alpine-python beaglebone-green-wifi-alpine-golang
+	beaglebone-green-wifi-alpine beaglebone-green-wifi-alpine-buildpack-deps beaglebone-green-wifi-alpine-node beaglebone-green-wifi-alpine-python beaglebone-green-wifi-alpine-golang \
+	beaglebone-fedora beaglebone-fedora-buildpack-deps beaglebone-fedora-node beaglebone-fedora-python beaglebone-fedora-golang \
+	raspberrypi2-fedora raspberrypi2-fedora-buildpack-deps raspberrypi2-fedora-node raspberrypi2-fedora-python raspberrypi2-fedora-golang \
+	edison-fedora edison-fedora-buildpack-deps edison-fedora-node edison-fedora-python edison-fedora-golang \
+	cubox-i-fedora cubox-i-fedora-buildpack-deps cubox-i-fedora-node cubox-i-fedora-python cubox-i-fedora-golang \
+	nitrogen6x-fedora nitrogen6x-fedora-buildpack-deps nitrogen6x-fedora-node nitrogen6x-fedora-python nitrogen6x-fedora-golang \
+	odroid-c1-fedora odroid-c1-fedora-buildpack-deps odroid-c1-fedora-node odroid-c1-fedora-python odroid-c1-fedora-golang \
+	odroid-ux3-fedora odroid-ux3-fedora-buildpack-deps odroid-ux3-fedora-node odroid-ux3-fedora-python odroid-ux3-fedora-golang \
+	parallella-hdmi-resin-fedora parallella-hdmi-resin-fedora-buildpack-deps parallella-hdmi-resin-fedora-node parallella-hdmi-resin-fedora-python parallella-hdmi-resin-fedora-golang \
+	ts4900-fedora ts4900-fedora-buildpack-deps ts4900-fedora-node ts4900-fedora-python ts4900-fedora-golang \
+	vab820-quad-fedora vab820-quad-fedora-buildpack-deps vab820-quad-fedora-node vab820-quad-fedora-python vab820-quad-fedora-golang \
+	zc702-zynq7-fedora zc702-zynq7-fedora-buildpack-deps zc702-zynq7-fedora-node zc702-zynq7-fedora-python zc702-zynq7-fedora-golang \
+	raspberrypi3-fedora raspberrypi3-fedora-buildpack-deps raspberrypi3-fedora-node raspberrypi3-fedora-python raspberrypi3-fedora-golang \
+	apalis-imx6-fedora apalis-imx6-fedora-buildpack-deps apalis-imx6-fedora-node apalis-imx6-fedora-python apalis-imx6-fedora-golang \
+	artik10-fedora artik10-fedora-buildpack-deps artik10-fedora-node artik10-fedora-python artik10-fedora-golang \
+	artik5-fedora artik5-fedora-buildpack-deps artik5-fedora-node artik5-fedora-python artik5-fedora-golang \
+	colibri-imx6-fedora colibri-imx6-fedora-buildpack-deps colibri-imx6-fedora-node colibri-imx6-fedora-python colibri-imx6-fedora-golang \
+	beaglebone-green-wifi-fedora beaglebone-green-wifi-fedora-buildpack-deps beaglebone-green-wifi-fedora-node beaglebone-green-wifi-fedora-python beaglebone-green-wifi-fedora-golang
 
 # Jenkins build steps
 docker build -t docs-updater .
