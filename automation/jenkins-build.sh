@@ -64,7 +64,6 @@ bash update.sh armv7hf-systemd raspberrypi-systemd i386-systemd amd64-systemd ar
 	beaglebone-green-wifi-fedora beaglebone-green-wifi-fedora-buildpack-deps beaglebone-green-wifi-fedora-node beaglebone-green-wifi-fedora-python beaglebone-green-wifi-fedora-golang \
 	qemux86-64-debian qemux86-64-buildpack-deps qemux86-64-node qemux86-64-python qemux86-64-golang \
 	qemux86-64-alpine qemux86-64-alpine-buildpack-deps qemux86-64-alpine-node qemux86-64-alpine-python qemux86-64-alpine-golang \
-	qemux86-64-fedora qemux86-64-fedora-buildpack-deps qemux86-64-fedora-node qemux86-64-fedora-python qemux86-64-fedora-golang \
 	qemux86-debian qemux86-buildpack-deps qemux86-node qemux86-python qemux86-golang \
 	qemux86-alpine qemux86-alpine-buildpack-deps qemux86-alpine-node qemux86-alpine-python qemux86-alpine-golang \
 	qemux86-fedora qemux86-fedora-buildpack-deps qemux86-fedora-node qemux86-fedora-python qemux86-fedora-golang \
@@ -72,7 +71,31 @@ bash update.sh armv7hf-systemd raspberrypi-systemd i386-systemd amd64-systemd ar
 	artik710-alpine artik710-alpine-buildpack-deps artik710-alpine-node artik710-alpine-python artik710-alpine-golang \
 	artik710-fedora artik710-fedora-buildpack-deps artik710-fedora-node artik710-fedora-python artik710-fedora-golang \
 	intel-quark-debian intel-quark-buildpack-deps intel-quark-node intel-quark-python intel-quark-golang \
-	intel-quark-alpine intel-quark-alpine-buildpack-deps intel-quark-alpine-node intel-quark-alpine-python intel-quark-alpine-golang
+	intel-quark-alpine intel-quark-alpine-buildpack-deps intel-quark-alpine-node intel-quark-alpine-python intel-quark-alpine-golang \
+	raspberrypi-openjdk raspberrypi-alpine-openjdk \
+	raspberrypi2-openjdk raspberrypi2-alpine-openjdk raspberrypi2-fedora-openjdk \
+	beaglebone-openjdk beaglebone-alpine-openjdk beaglebone-fedora-openjdk \
+	edison-openjdk edison-alpine-openjdk \
+	nuc-openjdk nuc-alpine-openjdk nuc-fedora-openjdk \
+	vab820-quad-openjdk vab820-quad-alpine-openjdk vab820-quad-fedora-openjdk \
+	zc702-zynq7-openjdk zc702-zynq7-alpine-openjdk zc702-zynq7-fedora-openjdk \
+	odroid-c1-openjdk odroid-c1-alpine-openjdk odroid-c1-fedora-openjdk \
+	odroid-ux3-openjdk odroid-ux3-alpine-openjdk odroid-ux3-fedora-openjdk \
+	parallella-hdmi-resin-openjdk parallella-hdmi-resin-alpine-openjdk parallella-hdmi-resin-fedora-openjdk \
+	nitrogen6x-openjdk nitrogen6x-alpine-openjdk nitrogen6x-fedora-openjdk \
+	cubox-i-openjdk cubox-i-alpine-openjdk cubox-i-fedora-openjdk \
+	ts4900-openjdk ts4900-alpine-openjdk ts4900-fedora-openjdk \
+	colibri-imx6-openjdk colibri-imx6-alpine-openjdk colibri-imx6-fedora-openjdk \
+	apalis-imx6-openjdk apalis-imx6-alpine-openjdk apalis-imx6-fedora-openjdk \
+	ts7700-openjdk ts7700-alpine-openjdk \
+	raspberrypi3-openjdk raspberrypi3-alpine-openjdk raspberrypi3-fedora-openjdk \
+	artik5-openjdk artik5-alpine-openjdk artik5-fedora-openjdk \
+	artik10-openjdk artik10-alpine-openjdk artik10-fedora-openjdk \
+	beaglebone-green-wifi-openjdk beaglebone-green-wifi-alpine-openjdk beaglebone-green-wifi-fedora-openjdk \
+	qemux86-openjdk qemux86-alpine-openjdk \
+	qemux86-64-openjdk qemux86-64-alpine-openjdk qemux86-64-fedora-openjdk \
+	artik710-openjdk artik710-alpine-openjdk artik710-fedora-openjdk \
+	intel-quark-openjdk intel-quark-alpine-openjdk
 
 # Jenkins build steps
 docker build -t docs-updater .
