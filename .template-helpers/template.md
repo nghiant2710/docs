@@ -22,4 +22,4 @@ For more information about this image and its history, please see the [relevant 
 
 %%USER-FEEDBACK%%
 
-[logo]: https://workablehr.s3.amazonaws.com/uploads/account/logo/3973/large_resin_logo.png
+[logo]: https://resin-packages.s3.amazonaws.com/logo/large_resin_logo.png
