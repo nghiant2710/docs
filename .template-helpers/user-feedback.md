@@ -12,4 +12,4 @@ Before you start to code, we recommend discussing your plans %%MAILING-LIST%% th
 
 Documentation for this image is stored in the [base images documentation][docs]. Check it out for list of all of our base images including many specialised ones for e.g. node, python, go, smaller images, etc.
 
-[docs]: https://docs.resin.io/runtime/resin-base-images/
+[docs]: https://docs.resin.io/runtime/resin-base-images/?ref=dockerhub
