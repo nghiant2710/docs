@@ -10,9 +10,9 @@ repos='rpi-nodejs rpi-node armv7hf-node rpi-buildpack-deps armv7hf-buildpack-dep
 	raspberrypi2-debian raspberrypi2-buildpack-deps raspberrypi2-golang raspberrypi2-node raspberrypi2-python raspberrypi2-openjdk \
 	raspberrypi2-alpine raspberrypi2-alpine-buildpack-deps raspberrypi2-alpine-golang raspberrypi2-alpine-node raspberrypi2-alpine-python raspberrypi2-alpine-openjdk \
 	raspberrypi2-fedora raspberrypi2-fedora-buildpack-deps raspberrypi2-fedora-golang raspberrypi2-fedora-node raspberrypi2-fedora-python raspberrypi2-fedora-openjdk \
-	raspberrypi3-debian raspberrypi3-buildpack-deps raspberrypi3-golang raspberrypi3-node raspberrypi3-python raspberrypi3-openjdk \
-	raspberrypi3-alpine raspberrypi3-alpine-buildpack-deps raspberrypi3-alpine-golang raspberrypi3-alpine-node raspberrypi3-alpine-python raspberrypi3-alpine-openjdk \
-	raspberrypi3-fedora raspberrypi3-fedora-buildpack-deps raspberrypi3-fedora-golang raspberrypi3-fedora-node raspberrypi3-fedora-python raspberrypi3-fedora-openjdk \
+	raspberry-pi3-debian raspberry-pi3-buildpack-deps raspberry-pi3-golang raspberry-pi3-node raspberry-pi3-python raspberry-pi3-openjdk \
+	raspberry-pi3-alpine raspberry-pi3-alpine-buildpack-deps raspberry-pi3-alpine-golang raspberry-pi3-alpine-node raspberry-pi3-alpine-python raspberry-pi3-alpine-openjdk \
+	raspberry-pi3-fedora raspberry-pi3-fedora-buildpack-deps raspberry-pi3-fedora-golang raspberry-pi3-fedora-node raspberry-pi3-fedora-python raspberry-pi3-fedora-openjdk \
 	beaglebone-debian beaglebone-buildpack-deps beaglebone-golang beaglebone-node beaglebone-python beaglebone-openjdk \
 	beaglebone-alpine beaglebone-alpine-buildpack-deps beaglebone-alpine-golang beaglebone-alpine-node beaglebone-alpine-python beaglebone-alpine-openjdk \
 	beaglebone-fedora beaglebone-fedora-buildpack-deps beaglebone-fedora-golang beaglebone-fedora-node beaglebone-fedora-python beaglebone-fedora-openjdk \
