@@ -88,7 +88,13 @@ bash update.sh armel-debian rpi-raspbian armv7hf-debian i386-debian amd64-debian
 	imx6ul-var-dart-fedora imx6ul-var-dart-fedora-buildpack-deps imx6ul-var-dart-fedora-golang imx6ul-var-dart-fedora-node imx6ul-var-dart-fedora-python imx6ul-var-dart-fedora-openjdk \
 	ccon-01-debian ccon-01-buildpack-deps ccon-01-golang ccon-01-node ccon-01-python ccon-01-openjdk \
 	ccon-01-alpine ccon-01-alpine-buildpack-deps ccon-01-alpine-golang ccon-01-alpine-node ccon-01-alpine-python ccon-01-alpine-openjdk \
-	ccon-01-fedora ccon-01-fedora-buildpack-deps ccon-01-fedora-golang ccon-01-fedora-node ccon-01-fedora-python ccon-01-fedora-openjdk
+	ccon-01-fedora ccon-01-fedora-buildpack-deps ccon-01-fedora-golang ccon-01-fedora-node ccon-01-fedora-python ccon-01-fedora-openjdk \
+	kitra520-debian kitra520-buildpack-deps kitra520-golang kitra520-node kitra520-python kitra520-openjdk \
+	kitra520-alpine kitra520-alpine-buildpack-deps kitra520-alpine-golang kitra520-alpine-node kitra520-alpine-python kitra520-alpine-openjdk \
+	kitra520-fedora kitra520-fedora-buildpack-deps kitra520-fedora-golang kitra520-fedora-node kitra520-fedora-python kitra520-fedora-openjdk \
+	jetson-tx2-debian jetson-tx2-buildpack-deps jetson-tx2-golang jetson-tx2-node jetson-tx2-python jetson-tx2-openjdk \
+	jetson-tx2-alpine jetson-tx2-alpine-buildpack-deps jetson-tx2-alpine-golang jetson-tx2-alpine-node jetson-tx2-alpine-python jetson-tx2-alpine-openjdk \
+	jetson-tx2-fedora jetson-tx2-fedora-buildpack-deps jetson-tx2-fedora-golang jetson-tx2-fedora-node jetson-tx2-fedora-python jetson-tx2-fedora-openjdk
 
 # Jenkins build steps
 docker build -t docs-updater .
